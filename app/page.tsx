@@ -1,19 +1,10 @@
-import Post from "./components/Post";
-
-export default function App() {
+// app/page.tsx
+export default function Home() {
+  throw new Error('Test error');
   return (
     <div>
-      <main>Hello NextJS</main>
-      
-      <Post/>
+      <h1>Home</h1>
+      <p>Welcome to the home page!</p>
     </div>
   );
 }
-
-
-
-
-// app/page.tsx (Static Page)
-// export default function Home() {
-//   return <h1>Welcome to Next.js</h1>;
-// }
